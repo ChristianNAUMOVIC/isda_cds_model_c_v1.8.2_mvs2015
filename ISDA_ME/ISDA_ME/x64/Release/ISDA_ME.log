@@ -1,0 +1,85 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : The process cannot access the file 'd:\codage\bb_repos\my\isda_me\isda_me\x64\release\cfinanci.obj' because it is being used by another process.
+  stdafx.cpp
+  badday.cpp
+  bsearch.cpp
+  buscache.cpp
+  busday.cpp
+  cashflow.cpp
+  cds.cpp
+  cdsbootstrap.cpp
+  cdsone.cpp
+  cerror.cpp
+cerror.cpp(728): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cfileio.cpp
+cfileio.cpp(231): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+cfileio.cpp(252): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cfinanci.cpp
+  cmemory.cpp
+  contingentleg.cpp
+contingentleg.cpp(91): warning C4804: '>': unsafe use of type 'bool' in operation
+contingentleg.cpp(98): warning C4804: '>': unsafe use of type 'bool' in operation
+  convert.cpp
+  cx.cpp
+  cxbsearch.cpp
+  cxdatelist.cpp
+  cxzerocurve.cpp
+  dateadj.cpp
+  dateconv.cpp
+  Compiling...
+  datelist.cpp
+  date_sup.cpp
+  defaulted.cpp
+defaulted.cpp(39): warning C4101: 'accrualEndDateAdj': unreferenced local variable
+defaulted.cpp(38): warning C4101: 'accrualStartDateAdj': unreferenced local variable
+  dtlist.cpp
+  feeleg.cpp
+feeleg.cpp(101): warning C4804: '>': unsafe use of type 'bool' in operation
+feeleg.cpp(108): warning C4804: '>': unsafe use of type 'bool' in operation
+  fltrate.cpp
+  gtozc.cpp
+  interpc.cpp
+  ISDA_ME.cpp
+ISDA_ME.cpp(389): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  ldate.cpp
+  linterpc.cpp
+  lintrp1.cpp
+  lprintf.cpp
+lprintf.cpp(335): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+lprintf.cpp(358): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+lprintf.cpp(360): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  lscanf.cpp
+  MemoryManager.cpp
+  MemoryPool.cpp
+  Objects.cpp
+  rtbrent.cpp
+  schedule.cpp
+  streamcf.cpp
+  Compiling...
+  strutil.cpp
+strutil.cpp(166): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  stub.cpp
+  tcurve.cpp
+  timeline.cpp
+  version.cpp
+  xlutils.cpp
+xlutils.cpp(289): warning C4267: '=': conversion from 'size_t' to 'CHAR', possible loss of data
+  yearfrac.cpp
+  zcall.cpp
+  zcswap.cpp
+  zcswdate.cpp
+  zcswutil.cpp
+  zerocurve.cpp
+  zr2coup.cpp
+  zr2fwd.cpp
+  dllmain.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Release\ISDA_ME.dll) does not match the Linker's OutputFile property value (D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Release\ISDA_ME.xll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1190,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.xll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Release\ISDA_ME.lib and object D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Release\ISDA_ME.exp
+ISDA_ME.exp : warning LNK4070: /OUT:ISDA_ME.dll directive in .EXP differs from output filename 'D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Release\ISDA_ME.xll'; ignoring directive
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  All 343 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+ISDA_ME.exp : warning LNK4070: /OUT:ISDA_ME.dll directive in .EXP differs from output filename 'D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Release\ISDA_ME.xll'; ignoring directive
+  ISDA_ME.vcxproj -> D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Release\ISDA_ME.dll
+  ISDA_ME.vcxproj -> D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Release\ISDA_ME.pdb (Full PDB)

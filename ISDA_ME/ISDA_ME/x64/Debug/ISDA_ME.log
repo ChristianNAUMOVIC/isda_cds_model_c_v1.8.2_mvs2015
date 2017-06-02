@@ -1,0 +1,82 @@
+﻿  stdafx.cpp
+  zr2fwd.cpp
+  zr2coup.cpp
+  zerocurve.cpp
+  zcswutil.cpp
+  zcswdate.cpp
+  zcswap.cpp
+  zcall.cpp
+  yearfrac.cpp
+  xlutils.cpp
+d:\codage\bb_repos\my\isda_me\isda_me\xlutils.cpp(289): warning C4267: '=': conversion from 'size_t' to 'CHAR', possible loss of data
+  version.cpp
+  timeline.cpp
+  tcurve.cpp
+  stub.cpp
+  strutil.cpp
+d:\codage\bb_repos\my\isda_me\isda_me\strutil.cpp(166): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  streamcf.cpp
+  schedule.cpp
+  rtbrent.cpp
+  Objects.cpp
+  MemoryPool.cpp
+  MemoryManager.cpp
+  Generating Code...
+  Compiling...
+  lscanf.cpp
+  lprintf.cpp
+d:\codage\bb_repos\my\isda_me\isda_me\lprintf.cpp(335): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\codage\bb_repos\my\isda_me\isda_me\lprintf.cpp(358): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\codage\bb_repos\my\isda_me\isda_me\lprintf.cpp(360): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  lintrp1.cpp
+  linterpc.cpp
+  ldate.cpp
+  ISDA_ME.cpp
+d:\codage\bb_repos\my\isda_me\isda_me\isda_me.cpp(389): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  interpc.cpp
+  gtozc.cpp
+  fltrate.cpp
+  feeleg.cpp
+d:\codage\bb_repos\my\isda_me\isda_me\feeleg.cpp(101): warning C4804: '>': unsafe use of type 'bool' in operation
+d:\codage\bb_repos\my\isda_me\isda_me\feeleg.cpp(108): warning C4804: '>': unsafe use of type 'bool' in operation
+  dtlist.cpp
+  defaulted.cpp
+d:\codage\bb_repos\my\isda_me\isda_me\defaulted.cpp(39): warning C4101: 'accrualEndDateAdj': unreferenced local variable
+d:\codage\bb_repos\my\isda_me\isda_me\defaulted.cpp(38): warning C4101: 'accrualStartDateAdj': unreferenced local variable
+  date_sup.cpp
+  datelist.cpp
+  dateconv.cpp
+  dateadj.cpp
+  cxzerocurve.cpp
+  cxdatelist.cpp
+  cxbsearch.cpp
+  cx.cpp
+  Generating Code...
+  Compiling...
+  convert.cpp
+  contingentleg.cpp
+d:\codage\bb_repos\my\isda_me\isda_me\contingentleg.cpp(91): warning C4804: '>': unsafe use of type 'bool' in operation
+d:\codage\bb_repos\my\isda_me\isda_me\contingentleg.cpp(98): warning C4804: '>': unsafe use of type 'bool' in operation
+  cmemory.cpp
+  cfinanci.cpp
+  cfileio.cpp
+d:\codage\bb_repos\my\isda_me\isda_me\cfileio.cpp(231): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\codage\bb_repos\my\isda_me\isda_me\cfileio.cpp(252): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cerror.cpp
+d:\codage\bb_repos\my\isda_me\isda_me\cerror.cpp(728): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  cdsone.cpp
+  cdsbootstrap.cpp
+  cds.cpp
+  cashflow.cpp
+  busday.cpp
+  buscache.cpp
+  bsearch.cpp
+  badday.cpp
+  Generating Code...
+  dllmain.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Debug\ISDA_ME.dll) does not match the Linker's OutputFile property value (D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Debug\ISDA_ME.xll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1190,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.xll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Debug\ISDA_ME.lib and object D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Debug\ISDA_ME.exp
+ISDA_ME.exp : warning LNK4070: /OUT:ISDA_ME.dll directive in .EXP differs from output filename 'D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Debug\ISDA_ME.xll'; ignoring directive
+  ISDA_ME.vcxproj -> D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Debug\ISDA_ME.dll
+  ISDA_ME.vcxproj -> D:\CODAGE\BB_REPOS\MY\ISDA_ME\x64\Debug\ISDA_ME.pdb (Full PDB)
